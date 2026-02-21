@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Badge } from './ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
@@ -6,34 +7,16 @@ interface SkillCategory {
   skills: string[];
 }
 
-const skillCategories: SkillCategory[] = [
-  {
-    category: 'Languages',
-    skills: ['Python', 'C/C++', 'TypeScript', 'JavaScript']
-  },
-  {
-    category: 'Frontend',
-    skills: ['React', 'React Native', 'Next.js', 'HTML/CSS']
-  },
-  {
-    category: 'Backend',
-    skills: ['Node.js', 'Express', 'REST APIs', 'PostGresQL']
-  },
-  {
-    category: 'Tools & Libraries',
-    skills: ['Git', 'Slurm', 'Numpy', 'Pandas', 'Scipy']
-  },
-  {
-    category: 'Chemistry',
-    skills: ['NMR', 'IR', 'X-Ray Diffraction']
-  }
-];
-
 export function Skills() {
+  const { t } = useTranslation();
+
+  // Load the categories array
+  const skillCategories = t('skills.categories', { returnObjects: true }) as SkillCategory[];
+
   return (
-    <section id="skills" className="w-full px-4 md:px-8 lg:px-16 py-24">
+    <section id="skills" className="w-full px-4 md:px-8 lg:px-16 py-12">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl mb-8">Skills</h2>
+        <h2 className="text-3xl mb-8">{t('skills.title')}</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {skillCategories.map((category, index) => (
             <Card key={index}>

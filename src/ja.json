@@ -1,0 +1,188 @@
+{
+  "header": {
+    "home": "ホーム",
+    "blog": "ブログ",
+    "projects": "プロジェクト",
+    "education": "学歴",
+    "experience": "職歴",
+    "about": "自己紹介"
+  },
+  "hero": {
+    "welcome": "こんにちは　<br /> <1>アンドリュー・ナップ</1>です",
+    "subtitle": "イェール大学 物理学・数学専攻",
+    "description": "イェール大学で物理学（Intensive）と数学を専攻している4年生です！"
+  },
+    "about": {
+    "title": "自己紹介",
+    "paragraphs": [
+      "イェール大学にて、物理学（Intensive）および数学を専攻している4年生です。",
+      "また、横浜のアメリカ・カナダ大学連合日本研究センター（IUC）で1年間留学し、日本語能力試験（JLPT）N1を取得しています。",
+      "将来的には、これらの経験を活かし、米国または日本で金融分野のキャリアを築きたいと考えています。",
+      "学業以外では、ピアノの練習、日本文学、パズルハントへの参加などを楽しんでいます。アーカンソー州の農場のような環境で育ち、動物が大好きです。どうぞお気軽にご連絡ください！"
+    ]
+  },
+  "education": {
+    "title": "学歴",
+    "labels": {
+      "courses": "履修科目: ",
+      "awards": "受賞: ",
+      "certifications": "資格: "
+    },
+    "items": [
+      {
+        "school": "イェール大学",
+        "degree": "理学士（B.S.）、物理学（Intensive）・数学 二重専攻",
+        "period": "2021年8月 – 2026年5月",
+        "courses": "抽象代数学、確率論、関数空間解析、ベクトル解析・多様体、離散数学、解析学 I・II、常微分方程式、多変数微積分、線形代数、物理数学、熱力学、量子力学 I・II、電磁気学、古典力学、現代物理測定 I・II（実験）、上級物理学実験",
+        "awards": "Sigma Pi Sigma 物理学名誉協会会員（イェール大学物理学専攻生の成績上位3分の1）"
+      },
+      {
+        "school": "アメリカ・カナダ大学連合日本研究センター (IUC)",
+        "degree": "集中日本語10ヶ月プログラム",
+        "period": "2024年8月 – 2025年6月",
+        "certifications": "日本語能力試験 （JLPT）N1 (2025年6月)"
+      }
+    ]
+  },
+  "experience": {
+    "title": "職歴",
+    "buttons": {
+      "website": "ウェブサイトを表示",
+      "github": "GitHub"
+    },
+    "items": [
+      {
+        "title": "クオンツ・リサーチ・インターン",
+        "company": "Verdad Advisors",
+        "period": "2026年6月 – 2026年8月",
+        "description": "日本の小型株式を対象とした投資分析を支援。既存の機械学習モデルを改良し、倒産リスク評価の精度向上に貢献。パートナー主導のアカデミック・ファイナンス・セミナーに毎日参加。",
+        "technologies": [],
+        "websiteUrl": "https://verdadcap.com/"
+      },
+      {
+        "title": "夏季研究学生",
+        "company": "大強度陽子加速器施設 (J-PARC)",
+        "period": "2024年8月",
+        "description": "NaIおよびCeBr3ガンマ線シンチレーション検出器の分解能向上のため、温度条件およびシェーピングアンプの設定を決定。CERN ROOTを使用してガンマ線スペクトルを解析。",
+        "technologies": ["C++", "CERN ROOT"]
+      },
+      {
+        "title": "学部研究フェロー (SURF)",
+        "company": "米国国立標準技術研究所 (NIST)",
+        "period": "2024年6月 – 2024年8月",
+        "description": "NISTの研究者と協力し、オートラジオグラフィー校正用標準イメージングファントムを作成するため、さまざまな基板と酸性キャリア溶液の材料適合性を評価。",
+        "technologies": ["Metrology", "Microscopy", "Python"],
+        "websiteUrl": "https://www.nist.gov/programs-projects/medical-printed-2d-phantoms-traceable-activity-autoradiography-calibrations"
+      },
+      {
+        "title": "日本語ティーチングフェロー",
+        "company": "イェール大学",
+        "period": "2023年8月 – 現在",
+        "description": "イェール大学の日本語コースでクリニックを主導。200時間以上の少人数指導および個別指導を実施。",
+        "technologies": ["Tutoring"]
+      }
+    ]
+  },
+  "publications": {
+    "title": "論文",
+    "items": [
+      {
+        "title": "Spatial uniformity and resolution in inkjet-printed 241Am phantoms imaged by digital autoradiography",
+        "authors": "Sean P. Jollota, Denis E. Bergeron, Andrew T. Nupp, et al.",
+        "venue": "Applied Radiation and Isotopes",
+        "year": "2025",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0969804325004531"
+      }
+    ]
+  },
+  "projects": {
+    "title": "プロジェクト",
+    "buttons": {
+      "demo": "デモを見る",
+      "source": "ソースコード"
+    },
+    "items": [
+      {
+        "title": "",
+        "description": "",
+        "technologies": ["Python"],
+        "githubUrl": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "technologies": ["Node.js", "React"],
+        "githubUrl": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "スキル",
+    "categories": [
+      {
+        "category": "言語",
+        "skills": ["英語 (母語)", "日本語 (JLPT N1)"]
+      },
+      {
+        "category": "プログラミング・技術",
+        "skills": []
+      },
+      {
+        "category": "ツール・ライブラリ",
+        "skills": []
+      },
+      {
+        "category": "物理学",
+        "skills": []
+      }
+    ]
+  },
+    "footer": {
+    "title": "お問い合わせ",
+    "description": "お気軽にご連絡ください！",
+    "labels": {
+      "email": "メール",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© {{year}} Andrew Nupp. All rights reserved."
+  },
+  "projectsPage": {
+    "welcome": {
+      "title": "プロジェクト一覧",
+      "description": "現在このページは準備中です"
+    },
+    "sections": {
+      "featured": "注目の研究",
+      "latest": "その他のプロジェクト"
+    },
+    "items": {
+    }
+  },
+  "projectPostPage": {
+    "backButton": "プロジェクト一覧に戻る",
+    "notFound": {
+      "title": "プロジェクトが見つかりません",
+      "description": "お探しのプロジェクト記事はまだ公開されていません。後ほどご確認ください。"
+    }
+  },
+  "blogPage": {
+    "welcome": {
+      "title": "ブログへようこそ",
+      "description": "現在このページは準備中です"
+    },
+    "sections": {
+      "pinned": "固定記事",
+      "latest": "最新記事"
+    },
+    "posts": {
+    }
+  },
+  "blogPostPage": {
+    "backButton": "ブログ一覧に戻る",
+    "notFound": {
+      "title": "記事が見つかりません",
+      "description": "お探しの記事はまだ公開されていません。後ほどご確認ください。"
+    }
+  }
+}

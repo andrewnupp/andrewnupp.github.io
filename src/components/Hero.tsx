@@ -1,29 +1,26 @@
-import { Button } from './ui/button';
-import { Card, CardContent } from './ui/card';
+import { useTranslation, Trans } from 'react-i18next';
 
 export function Hero() {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const { t, i18n } = useTranslation();
 
   return (
-    <section id="home" className="w-full px-4 md:px-8 lg:px-16 py-24 flex items-center justify-center">
+    <section id="home" className="w-full px-4 md:px-8 lg:px-16 py-12 flex items-center justify-center">
       <div className="max-w-4xl text-center space-y-6">
         <h1 className="text-4xl md:text-6xl">
-          Hi, I'm <span className="text-primary">Natsume Wu</span>
+          {/* Change <0> to <1> in JSON to match the <span> position below */}
+          <Trans i18nKey="hero.welcome">
+            Hi, I'm <span className="text-primary">Andrew Nupp</span>
+          </Trans>
         </h1>
+
         <h2 className="text-xl md:text-2xl text-muted-foreground">
-          CS and Chemistry @ Yale University
+          {/*{t('hero.subtitle')}*/}
         </h2>
-        {/* <Card>
-          <CardContent className="pt-6"> */}
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          I'm a senior at Yale studying computer science and chemistry! I'm passionate about learning and building new things, and I'm currently learning
-          more about full-stack development. Outside of work, I love to cook and try new foods.
-          </p>
+
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          {/*{t('hero.description')}*/}
+        </p>
       </div>
     </section>
-    
   );
 }

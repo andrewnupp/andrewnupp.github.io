@@ -1,0 +1,188 @@
+{
+  "header": {
+    "home": "Home",
+    "blog": "Blog",
+    "projects": "Projects",
+    "education": "Education",
+    "experience": "Experience",
+    "about": "About Me"
+  },
+  "hero": {
+    "welcome": "Hi, I'm <1>Andrew Nupp</1>",
+    "subtitle": "Physics and Math @ Yale University",
+    "description": "I'm a senior studying Physics (intensive) and Math at Yale!"
+  },
+    "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a senior at Yale University pursuing a B.S. in Intensive Physics and Mathematics. ",
+      "I also spent a year studying at the Inter-University Center for Japanese Language Studies (IUC) in Yokohama and hold JLPT N1 certification.",
+      "My long-term goal is to apply these experiences toward a career in the financial sector in the U.S. or Japan.",
+      "Outside of academics, my interests include piano, Japanese literature, and puzzle hunts. I grew up in a farm-like environment in Arkansas and love animals. Please feel free to reach out anytime!"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "labels": {
+      "courses": "Relevant Coursework: ",
+      "awards": "Awards: ",
+      "certifications": "Certifications: "
+    },
+    "items": [
+      {
+        "school": "Yale University",
+        "degree": "B.S. in Intensive Physics and Mathematics",
+        "period": "Aug. 2021 – May 2026",
+        "courses": "Abstract Algebra, Probability Theory, Analysis in Function Spaces, Vector Analysis and Manifolds, Discrete Mathematics, Analysis I and II, Ordinary Differential Equations, Multivariable Calculus, Linear Algebra, Mathematical Methods of Physics, Thermodynamics, Quantum Mechanics I and II, Electromagnetism, Classical Mechanics, Modern Physical Measurement I and II (lab), Advanced Physics Lab",
+        "awards": "Sigma Pi Sigma Physics Honor Society (Top third of Yale physics undergraduates by grades)"
+      },
+      {
+        "school": "Stanford Inter-University Center for Japanese Language Studies (IUC)",
+        "degree": "Intensive Japanese Program",
+        "period": "Aug. 2024 – June 2025",
+        "certifications": "JLPT N1 (June 2025)"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "buttons": {
+      "website": "Visit Website",
+      "github": "View on GitHub"
+    },
+    "items": [
+      {
+        "title": "Quantitative Research Intern",
+        "company": "Verdad Advisors",
+        "period": "June 2026 – August 2026",
+        "description": "Support quantitative research and investment analysis focused on small-cap Japanese equities. Refine existing machine learning models to assess bankruptcy risk, improving investment decision accuracy. Participate in daily academic finance seminars led by firm partners.",
+        "technologies": [],
+        "websiteUrl": "https://verdadcap.com/"
+      },
+      {
+        "title": "Summer Research Student",
+        "company": "Japan Proton Accelerator Research Complex (J-PARC)",
+        "period": "August 2024",
+        "description": "Determined temperature conditions and shaping amplifier settings to optimize the resolution of NaI and CeBr3 gamma-ray scintillation detectors. Used CERN ROOT to analyze 60Co and 137Cs gamma spectra.",
+        "technologies": ["C++", "CERN ROOT"]
+      },
+      {
+        "title": "Summer Undergraduate Research Fellow (SURF)",
+        "company": "National Institute of Standards and Technology (NIST)",
+        "period": "June 2024 – August 2024",
+        "description": "Worked with NIST scientists to assess the materials compatibility of various substrates with acidic carrier solutions to make standard imaging phantoms for autoradiography.",
+        "technologies": ["Metrology", "Microscopy", "Python"],
+        "websiteUrl": "https://www.nist.gov/programs-projects/medical-printed-2d-phantoms-traceable-activity-autoradiography-calibrations"
+      },
+      {
+        "title": "Japanese Teaching Fellow",
+        "company": "Yale University",
+        "period": "August 2023 – Present",
+        "description": "Lead weekly hour-long clinics for 16 students in Japanese language courses at Yale. 200+ hours of small-group instruction and tutoring.",
+        "technologies": ["Tutoring"]
+      }
+    ]
+  },
+  "publications": {
+    "title": "Publications",
+    "items": [
+      {
+        "title": "Spatial uniformity and resolution in inkjet-printed 241Am phantoms imaged by digital autoradiography",
+        "authors": "Sean P. Jollota, Denis E. Bergeron, Andrew T. Nupp, et al.",
+        "venue": "Applied Radiation and Isotopes",
+        "year": "2025",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0969804325004531"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "buttons": {
+      "demo": "Live Demo",
+      "source": "Source Code"
+    },
+    "items": [
+      {
+        "title": "",
+        "description": "",
+        "technologies": ["Python"],
+        "githubUrl": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "technologies": ["Node.js", "React"],
+        "githubUrl": ""
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": [
+      {
+        "category": "Languages",
+        "skills": ["English (Native)", "Japanese (JLPT N1)"]
+      },
+      {
+        "category": "Programming & Tech",
+        "skills": []
+      },
+      {
+        "category": "Tools & Libraries",
+        "skills": []
+      },
+      {
+        "category": "Physics",
+        "skills": []
+      }
+    ]
+  },
+    "footer": {
+    "title": "Get In Touch",
+    "description": "Feel free to reach out anytime!",
+    "labels": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "copyright": "© {{year}} Andrew Nupp. All rights reserved."
+  },
+  "projectsPage": {
+    "welcome": {
+      "title": "My Projects",
+      "description": "This page is still under construction. Please check back soon!"
+    },
+    "sections": {
+      "featured": "Featured Research",
+      "latest": "Other Projects"
+    },
+    "items": {
+    }
+  },
+  "projectPostPage": {
+    "backButton": "Back to Projects",
+    "notFound": {
+      "title": "Project Not Found",
+      "description": "The project write-up you are looking for isn't available yet. Please check back later!"
+    }
+  },
+  "blogPage": {
+    "welcome": {
+      "title": "Welcome to my Blog",
+      "description": "This page is still under construction. Please check back soon!"
+    },
+    "sections": {
+      "pinned": "Pinned",
+      "latest": "Latest"
+    },
+    "posts": {  
+    }
+  },
+  "blogPostPage": {
+    "backButton": "Back to Blog",
+    "notFound": {
+      "title": "Post Not Found",
+      "description": "The article you are looking for hasn't been published yet. Please check back later!"
+    }
+  }
+} 

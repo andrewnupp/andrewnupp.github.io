@@ -1,11 +1,11 @@
+# Personal Website
 
-  # Personal Website
+[View Live Site](https://andrewnupp.com)
 
-  This is my personal website. The UI was designed using Figma. 
+This is my personal website. Credit to [Natsume Wu](https://github.com/nwu698) for the original code. 
 
-  ## Running the code
+## Running the code
 
-  Run `npm i` to install the dependencies.
+Run `npm i` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
-  
+Run `npm run dev` to start the development server.
