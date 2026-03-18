@@ -14,7 +14,7 @@ export function Skills() {
   const skillCategories = t('skills.categories', { returnObjects: true }) as SkillCategory[];
 
   return (
-    <section id="skills" className="w-full px-4 md:px-8 lg:px-16 py-12">
+    <section id="skills" className="w-full px-4 md:px-8 lg:px-16 py-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">{t('skills.title')}</h2>
         <div className="grid md:grid-cols-2 gap-6">

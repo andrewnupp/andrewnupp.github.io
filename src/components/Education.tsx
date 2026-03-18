@@ -1,3 +1,4 @@
+// Education.tsx
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { GraduationCap } from 'lucide-react';
@@ -20,13 +21,13 @@ export function Education() {
   const educationItems = t('education.items', { returnObjects: true }) as EducationItem[];
 
   return (
-    <section id="education" className="w-full px-4 md:px-8 lg:px-16 py-12 bg-muted/30">
+    <section id="education" className="w-full px-4 md:px-8 lg:px-16 py-9 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">{t('education.title')}</h2>
         
         <div className="space-y-6">
           {educationItems.map((edu, index) => (
-            <Card key={index}>
+            <Card key={index} className="pb-4">
               <CardHeader>
                 <div className="flex items-start gap-4">
                   <div className="p-2 bg-primary/10 rounded-lg">
@@ -45,32 +46,32 @@ export function Education() {
                   </div>
                 </div>
               </CardHeader>
-              
+
               {(edu.description || edu.courses || edu.awards || edu.certifications) && (
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-1">
+                  <ul className="list-disc list-outside ml-5 space-y-1">
                     {/*"GPA"*/}
                     {edu.description && (
-                        <li className="pl-4"><em>GPA: </em>{edu.description}</li>
+                        <li><em>GPA: </em>{edu.description}</li>
                     )}
                     
                     {/*"Courses"*/}
                     {edu.courses && (
-                        <li className="pl-4" style={{ textIndent: '-1.3rem', paddingLeft: '1.5rem' }}>
+                        <li>
                             <em>{t('education.labels.courses')}</em>{edu.courses}
                         </li>
                     )}
 
                     {/*"Awards"*/}
                     {edu.awards && (
-                        <li className="pl-4">
+                        <li>
                             <em>{t('education.labels.awards')}</em>{edu.awards}
                         </li>
                     )}
 
                     {/*Certifications*/}
                     {edu.certifications && (
-                        <li className="pl-4">
+                        <li>
                             <em>{t('education.labels.certifications')}</em>{edu.certifications}
                         </li>
                     )}

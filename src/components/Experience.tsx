@@ -22,7 +22,7 @@ export function Experience() {
   const experiences = t('experience.items', { returnObjects: true }) as ExperienceItem[];
 
   return (
-    <section id="experience" className="w-full px-4 md:px-8 lg:px-16 py-12">
+    <section id="experience" className="w-full px-4 md:px-8 lg:px-16 py-9">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">{t('experience.title')}</h2>
         <div className="space-y-6">

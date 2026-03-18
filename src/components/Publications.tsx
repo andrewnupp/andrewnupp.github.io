@@ -21,7 +21,7 @@ export function Publications() {
   const publicationItems = t('publications.items', { returnObjects: true }) as Publication[];
 
   return (
-    <section id="publications" className="w-full px-4 md:px-8 lg:px-16 py-12 bg-muted/30">
+    <section id="publications" className="w-full px-4 md:px-8 lg:px-16 py-9 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">{t('publications.title')}</h2>
 

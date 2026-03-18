@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="border-t">
-      <div className="container px-6 py-12">
+      <div className="container px-6 py-9">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h3 className="text-2xl">{t('footer.title')}</h3>
           <p className="text-muted-foreground max-w-2xl mx-auto">

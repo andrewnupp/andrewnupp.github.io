@@ -2,7 +2,7 @@
 
 [View Live Site](https://andrewnupp.com)
 
-This is my personal website. Credit to [Natsume Wu](https://github.com/nwu698) for the original code. 
+This is my personal website. Credit to [Natsume Wu](https://github.com/nwu698) for the original design. 
 
 ## Running the code
 

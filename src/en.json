@@ -29,16 +29,21 @@
     },
     "items": [
       {
+        "school": "The University of Tokyo",
+        "degree": "M.S. in Physics",
+        "period": "Oct. 2026 - Jun. 2028"
+      },
+      {
         "school": "Yale University",
         "degree": "B.S. in Intensive Physics and Mathematics",
-        "period": "Aug. 2021 – May 2026",
+        "period": "Aug. 2021 - May 2026",
         "courses": "Abstract Algebra, Probability Theory, Analysis in Function Spaces, Vector Analysis and Manifolds, Discrete Mathematics, Analysis I and II, Ordinary Differential Equations, Multivariable Calculus, Linear Algebra, Mathematical Methods of Physics, Thermodynamics, Quantum Mechanics I and II, Electromagnetism, Classical Mechanics, Modern Physical Measurement I and II (lab), Advanced Physics Lab",
         "awards": "Sigma Pi Sigma Physics Honor Society (Top third of Yale physics undergraduates by grades)"
       },
       {
         "school": "Stanford Inter-University Center for Japanese Language Studies (IUC)",
         "degree": "Intensive Japanese Program",
-        "period": "Aug. 2024 – June 2025",
+        "period": "Aug. 2024 - June 2025",
         "certifications": "JLPT N1 (June 2025)"
       }
     ]
@@ -53,8 +58,8 @@
       {
         "title": "Quantitative Research Intern",
         "company": "Verdad Advisors",
-        "period": "June 2026 – August 2026",
-        "description": "Support quantitative research and investment analysis focused on small-cap Japanese equities. Refine existing machine learning models to assess bankruptcy risk, improving investment decision accuracy. Participate in daily academic finance seminars led by firm partners.",
+        "period": "June 2026 - August 2026",
+        "description": "",
         "technologies": [],
         "websiteUrl": "https://verdadcap.com/"
       },
@@ -68,7 +73,7 @@
       {
         "title": "Summer Undergraduate Research Fellow (SURF)",
         "company": "National Institute of Standards and Technology (NIST)",
-        "period": "June 2024 – August 2024",
+        "period": "June 2024 - August 2024",
         "description": "Worked with NIST scientists to assess the materials compatibility of various substrates with acidic carrier solutions to make standard imaging phantoms for autoradiography.",
         "technologies": ["Metrology", "Microscopy", "Python"],
         "websiteUrl": "https://www.nist.gov/programs-projects/medical-printed-2d-phantoms-traceable-activity-autoradiography-calibrations"
@@ -76,7 +81,7 @@
       {
         "title": "Japanese Teaching Fellow",
         "company": "Yale University",
-        "period": "August 2023 – Present",
+        "period": "August 2023 - Present",
         "description": "Lead weekly hour-long clinics for 16 students in Japanese language courses at Yale. 200+ hours of small-group instruction and tutoring.",
         "technologies": ["Tutoring"]
       }

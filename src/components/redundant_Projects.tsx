@@ -20,7 +20,7 @@ export function Projects() {
   const projectItems = t('projects.items', { returnObjects: true }) as Project[];
 
   return (
-    <section id="projects" className="w-full px-4 md:px-8 lg:px-16 py-12 bg-muted/30">
+    <section id="projects" className="w-full px-4 md:px-8 lg:px-16 py-6 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">{t('projects.title')}</h2>
         <div className="grid gap-6">
